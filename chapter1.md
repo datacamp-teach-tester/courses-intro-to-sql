@@ -6,6 +6,15 @@ free_preview: true
 
 ## Welcome to the course!
 
+
+
+
+
+
+
+
+
+
 ```yaml
 type: VideoExercise
 key: dcdbb24914
@@ -18,6 +27,10 @@ skills: 1
 f05d06ad7807cf476fdb5f674174c9d5
 
 ---
+
+
+
+
 
 ## Onboarding | Tables
 
