@@ -40,3 +40,4 @@ key: b94b1d8a5b
 ```
 
 `@script`
+test
